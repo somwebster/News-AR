@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="./manifest.json">
+
+	<link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<title>Glance AR</title>
+</head>
+
+<style type="text/css">
+	
+	.scan{
+		margin-top: 21rem;
+	}
+
+	.btn-scan{
+
+	}
+
+	nav{
+		background: #673AB7;
+	    box-shadow: 0px 0px 5px #000;
+	    border-radius: 2%;
+	    height: 5rem;
+	}
+
+	.nav-title{
+        color: #fff;
+	    margin-left: 16px;
+	    padding-top: 5px;
+	}
+
+	.btn-scan{
+	    background-color: #673ab7;
+	    color: #fff;
+	    font-size: 2rem;
+		margin: 11px;
+	}
+
+	.btn:focus, .btn:hover {
+	    color: #fff;
+	    text-decoration: none;
+	}
+
+</style>
+
+<nav>
+	<div class="nav-title"><h4>Glance AR</h4></div>
+</nav>
+
+<body>
+
+	<center class="scan">
+		<a href="app.html"><button class="btn btn-scan">SCAN</button></a><br>
+		<a href="#"><button class="btn btn-scan">HISTORY</button></a><br>
+		<a href="#"><button class="btn btn-scan">ABOUT</button></a>
+	</center>
+</body>
+
+<script type="text/javascript">
+	
+	if ('serviceWorker' in navigator) {
+	  window.addEventListener('load', function() {
+	    navigator.serviceWorker.register('/service-worker.js');
+	    console.log("service worker registered."); 
+	  });
+	}else {
+	    console.log("service worker could not be registered.") 
+	}
+	
+</script>
+
+</html>
