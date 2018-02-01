@@ -1,10 +1,7 @@
 function main(){
-    // var sprite = renderSprite(smoothedRoot);
-	// renderText("Full description \nof the item", sprite);    
-    //renderBox(smoothedRoot);
+    /
+     //Add 3d home model JSON for rendering
      renderObject(smoothedRoot, "data/models/home-test.json");
-     // renderObject(smoothedRoot, "http://ar-test-api.surge.sh/tree.json");
-    // renderObject(smoothedRoot, "data/models/scene.json");
     
 }
 
