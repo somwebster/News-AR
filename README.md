@@ -1,6 +1,11 @@
 # News-AR
 News-AR is a web application which aims to bring printed media back to life and makes it more interactive with the help of Augmented Reality.
 
+ ```
+Keywords : Web based Augmented Reality, 3d design, three.js, progressive web app, printed media, first news AR, marker based AR,Machine learning.
+```
+
+
  > Why web app rather than native ?
  
  1. Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
@@ -21,8 +26,8 @@ News-AR is a web application which aims to bring printed media back to life and 
  3. 3D advertisement.
  4. Live polls
  
-![alt text](https://drive.google.com/file/d/13O_qPOaGiWCSn8FJCs7J1Tp8z8jwVCNt/view?usp=sharing)
-![alt text](https://drive.google.com/open?id=1EAe6Hg2uHgMRybCMWi40NXND22xJbMAc)
+![Cant load the image](https://drive.google.com/file/d/13O_qPOaGiWCSn8FJCs7J1Tp8z8jwVCNt/view?usp=sharing)
+![Cant load the image](https://drive.google.com/open?id=1EAe6Hg2uHgMRybCMWi40NXND22xJbMAc)
  
  To know more about this project and for any queries contact me : som@fnplus.xyz
  Visit the website [News-AR](https://news-ar.netlify.com)
