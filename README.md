@@ -21,7 +21,8 @@ News-AR is a web application which aims to bring printed media back to life and 
  3. 3D advertisement.
  4. Live polls
  
-![alt text](https://thumb.ibb.co/k3HwB6/Whats_App_Image_2018_02_03_at_12_11_27_PM.jpg)
+![alt text](https://image.ibb.co/k3HwB6/Whats_App_Image_2018_02_03_at_12_11_27_PM.jpg)
+![alt text](https://image.ibb.co/dH6dPR/Screenshot_20180203122124_439x573.png)
  
  To know more about this project and for any queries contact me : som@fnplus.xyz
  Visit the website [News-AR](https://news-ar.netlify.com)
