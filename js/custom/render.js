@@ -48,19 +48,21 @@ const renderSprite = root =>{
 	return sprite;
 }
 
-const renderObject = (root, objectURL) => new THREE.ObjectLoader().load(objectURL, obj => root.add(obj));
-
-
-renderObject.load(
-	objectURL, 
+const renderObject = (root, objectURL) => {
+	var obj1 = new THREE.ObjectLoader();
 	
-	function update( event ) {
-        this.rotation.y += 0.05;
-         },
-	
-	obj => root.add(obj)
+	obj1.load(
+		objectURL, 
+		
+		function update( event ) {
+			this.rotation.y += 0.5;
+		
+		} ,
+		
+		obj => {root.add(obj));}
 
-);
+}
+
 
 const renderScene = (root, sceneURL) => {
 	new THREE.JSONLoader().load(sceneURL, ( geometry, materials ) =>{
