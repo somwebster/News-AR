@@ -48,7 +48,7 @@ const renderSprite = root =>{
 	return sprite;
 }
 
-const renderObject = (root, objectURL) => new THREE.ObjectLoader();
+const renderObject = (root, objectURL) => new THREE.ObjectLoader().load(objectURL, obj => root.add(obj));
 
 
 renderObject.load(
