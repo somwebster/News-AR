@@ -59,7 +59,9 @@ const renderObject = (root, objectURL) => {
 		
 		} ,
 		
-		obj => {root.add(obj));}
+		function (obj){
+		root.add(obj);
+		}
 
 }
 
